@@ -22,15 +22,15 @@ export const meta: MetaFunction = () => {
 const FEATURES: { title: string; body: string }[] = [
   {
     title: "Slice on the server or in the browser",
-    body: "OrcaSlicer's engine, linked into the server and compiled to WebAssembly, so a slice runs wherever there's room. Vendor profiles with their inheritance, per-job overrides, supports, several plates per job.",
+    body: "OrcaSlicer's engine, linked into the server and compiled to WebAssembly, so a slice runs wherever there's room. Vendor profiles with their inheritance, per-job overrides, supports, and several plates per job.",
   },
   {
     title: "A plate you can work on",
-    body: "A 3D view of the printer's bed: add parts, duplicate, fill, arrange across plates, move, rotate and lay a face flat. Overhangs show before you slice, and the preview shows every layer after.",
+    body: "A 3D view of the printer's bed: add parts, duplicate, fill, arrange across plates, move, rotate, and lay a face flat. Overhangs show before you slice, and the preview shows every layer after.",
   },
   {
     title: "Five kinds of printers",
-    body: "Bambu Lab, Klipper (Moonraker), OctoPrint, Prusa (PrusaLink) and Elegoo Centauri Carbon, on your network: discovery, live status, AMS trays, sending and following prints, pause and stop, cameras.",
+    body: "Bambu Lab, Klipper (Moonraker), OctoPrint, Prusa (PrusaLink), and Elegoo Centauri Carbon, on your network: discovery, live status, AMS trays, sending and following prints, pause and stop, and cameras.",
   },
   {
     title: "Run the farm",
@@ -38,7 +38,7 @@ const FEATURES: { title: string; body: string }[] = [
   },
   {
     title: "Nothing unchecked reaches a printer",
-    body: "Every plate's G-code is read in its firmware's own dialect and run through a model of the printer: moves, temperatures, firmware hazards. Anything unusual waits for an admin.",
+    body: "Every plate's G-code is read in its firmware's own dialect and run through a model of the printer: moves, temperatures, and firmware hazards. Anything unusual waits for an admin.",
   },
   {
     title: "People, not passwords",
@@ -76,7 +76,7 @@ export default function Home() {
           <p className="subtitle">{SITE.tagline}</p>
           <p className="intro">
             An open-source slicer and print-farm manager you host yourself, for
-            a makerspace, a classroom or a small print farm.
+            a makerspace, a classroom, or a small print farm.
           </p>
           <div className="actions">
             {SITE.demoLive ? (
@@ -130,7 +130,7 @@ export default function Home() {
             <code>{run}</code>
           </pre>
           <p className="note">
-            Configuration, remote access and building from source are in the{" "}
+            Configuration, remote access, and building from source are in the{" "}
             <a href={`${SITE.repo}#running-it`}>README</a>.
           </p>
         </section>
@@ -153,7 +153,7 @@ export default function Home() {
         </p>
         <p className="note">
           {SITE.name} is an independent project, not affiliated with OrcaSlicer,
-          Bambu Lab, Prusa Research, Elegoo, Klipper or OctoPrint.
+          Bambu Lab, Prusa Research, Elegoo, Klipper, or OctoPrint.
         </p>
       </footer>
     </>

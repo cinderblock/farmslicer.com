@@ -57,4 +57,4 @@ Facts on the page come from FarmSlicer's README; keep them in step with it.
 Cloudflare Pages builds and deploys on push to `master` (git-connected,
 `bun run build` → `build/client`), configured in the ops repo with the
 domain's redirects. `.github/workflows/ci.yml` only checks formatting,
-types, tests and the build.
+types, tests, and the build.

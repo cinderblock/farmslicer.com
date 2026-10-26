@@ -5,7 +5,7 @@ export const SITE = {
   url: "https://farmslicer.com",
   tagline: "Slice and run a 3D print farm from the browser.",
   description:
-    "FarmSlicer is an open-source, self-hosted slicer and print-farm manager: OrcaSlicer's engine on your server or in your browser, sending to Bambu Lab, Klipper, OctoPrint, Prusa and Elegoo printers.",
+    "FarmSlicer is an open-source, self-hosted slicer and print-farm manager: OrcaSlicer's engine on your server or in your browser, sending to Bambu Lab, Klipper, OctoPrint, Prusa, and Elegoo printers.",
   repo: "https://github.com/cinderblock/FarmSlicer",
   image: "ghcr.io/cinderblock/farmslicer",
   demo: "https://demo.farmslicer.com",
