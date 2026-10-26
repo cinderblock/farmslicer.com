@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#1a1a2e"/>
+  <g transform="translate(110 155) scale(0.625)"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4a9eff"/><stop offset="1" stop-color="#2a5fb8"/></linearGradient></defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <g fill="#ffffff">
+    <rect x="136" y="116" width="250" height="40" rx="20" opacity="1"/>
+    <rect x="136" y="164" width="250" height="40" rx="20" opacity="0.93"/>
+    <rect x="136" y="212" width="72" height="40" rx="20" opacity="0.86"/>
+    <rect x="136" y="260" width="196" height="40" rx="20" opacity="0.93"/>
+    <rect x="136" y="308" width="72" height="40" rx="20" opacity="0.86"/>
+    <rect x="136" y="356" width="72" height="40" rx="20" opacity="0.86"/>
+  </g></g>
+  <text x="470" y="300" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="92" font-weight="700" fill="#e0e0e0">FarmSlicer</text>
+  <text x="472" y="372" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="36" fill="#8892a4">Slice and run a 3D print farm</text>
+  <text x="472" y="420" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="36" fill="#8892a4">from the browser. Open source.</text>
+</svg>
