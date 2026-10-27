@@ -10,7 +10,7 @@ test.describe("Home Page", () => {
       "FarmSlicer: Slice and run a 3D print farm from the browser.",
     );
     await expect(page.getByRole("heading", { level: 1 })).toHaveText(
-      "FarmSlicer",
+      "FarmSlicer™",
     );
   });
 

@@ -72,7 +72,7 @@ export default function Home() {
             width={112}
             height={112}
           />
-          <h1>{SITE.name}</h1>
+          <h1>{SITE.name}™</h1>
           <p className="subtitle">{SITE.tagline}</p>
           <p className="intro">
             An open-source slicer and print-farm manager you host yourself, for
@@ -149,11 +149,13 @@ export default function Home() {
       <footer className="container footer">
         <p>
           <a href={SITE.repo}>GitHub</a> ·{" "}
-          <a href={`${SITE.repo}/issues`}>Issues</a> · {SITE.license}
+          <a href={`${SITE.repo}/issues`}>Issues</a> · {SITE.license} ·{" "}
+          <a href={`${SITE.repo}/blob/master/TRADEMARKS.md`}>Trademarks</a>
         </p>
         <p className="note">
-          {SITE.name} is an independent project, not affiliated with OrcaSlicer,
-          Bambu Lab, Prusa Research, Elegoo, Klipper, or OctoPrint.
+          {SITE.name}™ is a trademark of Cameron Tacklind. It's an independent
+          project, not affiliated with OrcaSlicer, Bambu Lab, Prusa Research,
+          Elegoo, Klipper, or OctoPrint.
         </p>
       </footer>
     </>
